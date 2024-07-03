@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Shadman Khan",
-  title: "Hi all, I'm Shadman",
+  title: "Hello there, I'm Shadman",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -367,7 +367,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Want to discuss a project or just want to say hi? Feel free to reach out. ",
+    "Want to discuss a project or just say hi? Feel free to reach out. ",
   number: "07487852984",
   email_address: "shadmankhan08@gmail.com"
 };
