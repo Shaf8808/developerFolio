@@ -232,7 +232,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/gamesguide-image.jpg"),
+      image: require("./assets/images/gamesguide-image.png"),
       projectName: "GamesGuide",
       projectDesc: "A modern gaming news site developed entirely with Django",
       footerLink: [
