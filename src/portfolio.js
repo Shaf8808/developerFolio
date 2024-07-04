@@ -51,7 +51,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Proficient in the backend of applications through technologies such as Python and Node.js"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ Heroku / Netlify"
     )
