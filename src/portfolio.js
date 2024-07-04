@@ -45,7 +45,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER NOT AFRAID TO DELVE INTO UNFAMILIAR TECH STACKS",
+  subTitle:
+    "CRAZY FULL STACK DEVELOPER NOT AFRAID TO DELVE INTO UNFAMILIAR TECH STACKS",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -122,23 +123,33 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Hertfordshire University",
+      // logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "IT Management in Business",
+      duration: "September 2012 - April 2013",
+      desc: "BSc(Hons)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Enhance understanding of crucial business principles, organisational dynamics and system tools",
+        "Learn about user-centric system design, technology trends, database management and mobile tech"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Kingston University",
+      // logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Marketing Management",
+      duration: "September 2013 - April 2015",
+      desc: "BSc(Hons)",
+      descBullets: ["Covers key marketing theories and principles, brand strategy and development, digital marketing, advertising"]
+    },
+    {
+      schoolName: "Code Institute",
+      // logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Full Stack developer",
+      duration: "November 2022 - December 2023",
+      desc: "One of the only university credit-rated online coding bootcamps in the UK",
+      descBullets: [
+        "An in-depth, flexible, online coding course, with 600 hours of learning material over a 12 month period"
+      ]
     }
   ]
 };
@@ -170,29 +181,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Web developer",
+      company: "Revitalize Innovations",
+      companylogo: require("./assets/images/revitalize-logo.png"),
+      date: "Jan 2024 – Present",
+      desc: "Sole web developer for Revitalize creating visually appealing UI/UX using best practices",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Ensure the site is responsive across multiple devices through good responsive design practices",
+        "Utilize a content management platform (Wix) to create and edit the site to meet client needs"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Radiology administrator",
+      company: "4Ways",
+      companylogo: require("./assets/images/4ways-logo.jpeg"),
+      date: " Nov 2021 – Jan 2023",
+      desc: "Recorded patient data with precision on IT systems",
+      descBullets: [
+        "Guaranteed accuracy of attached referrals with each patient before being scanned",
+        "Built rewarding and long-lasting relationships with radiologists working for the company"
+      ]
     }
   ]
 };
@@ -209,28 +217,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME OF THE BIGGEST SOLO PROJECTS THAT I DEVELOPED AND DEPLOYED SUCCESSFULLY",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bloggerize-logo.png"),
+      projectName: "Bloggerize",
+      projectDesc: "My very own social media application built with React and DRF",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://django-rest-api-de0173352397.herokuapp.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/gamesguide-image.jpg"),
+      projectName: "GamesGuide",
+      projectDesc: "A modern gaming news site developed entirely with Django",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://pp4-news-site-3458881b171b.herokuapp.com/"
         }
       ]
     }
@@ -248,50 +256,22 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Scrimba",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Completed Fundamentals of React on the Scrimba learning platform",
+      image: require("./assets/images/scrimba-image.jpg"),
+      imageAlt: "Scrimba logo",
     },
     {
-      title: "Google Assistant Action",
+      title: "Udemy Web developer Bootcamp",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Underwent the web developer bootcamp which covered HTML, CSS, Javascript and Node.js",
+      image: require("./assets/images/udemy-logo.png"),
+      imageAlt: "Udemy logo",
       footerLink: [
         {
           name: "View Google Assistant Action",
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
     }
