@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.87cd0c84.css",
-    "main.js": "/developerFolio/static/js/main.630ce5e9.js",
+    "main.js": "/developerFolio/static/js/main.4eaff1e9.js",
     "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/developerFolio/static/css/769.b3cbb36b.chunk.css",
@@ -14,12 +14,14 @@
     "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/revitalize-logo.png": "/developerFolio/static/media/revitalize-logo.55545affd2b7126158e7.png",
+    "static/media/kingston-logo.png": "/developerFolio/static/media/kingston-logo.5d77dc8f72fb457ec83d.png",
     "static/media/scrimba-image.jpg": "/developerFolio/static/media/scrimba-image.97f1cf703a8e7e0ba300.jpg",
     "static/media/skill.svg": "/developerFolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/code-institute-logo.webp": "/developerFolio/static/media/code-institute-logo.18f9ed0c4639712a599e.webp",
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.87cd0c84.css.map": "/developerFolio/static/css/main.87cd0c84.css.map",
-    "main.630ce5e9.js.map": "/developerFolio/static/js/main.630ce5e9.js.map",
+    "main.4eaff1e9.js.map": "/developerFolio/static/js/main.4eaff1e9.js.map",
     "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -27,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.87cd0c84.css",
-    "static/js/main.630ce5e9.js"
+    "static/js/main.4eaff1e9.js"
   ]
 }
