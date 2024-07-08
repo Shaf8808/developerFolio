@@ -23,7 +23,7 @@ const greeting = {
   username: "Shadman Khan",
   title: "Hello there, I'm Shadman",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with proven experience of building Web and Mobile applications using HTML / CSS / JavaScript / Reactjs / Nodejs /  and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -46,7 +46,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "CRAZY FULL STACK DEVELOPER NOT AFRAID TO DELVE INTO UNFAMILIAR TECH STACKS",
+    "HIGHLY DRIVEN FULL STACK DEVELOPER NOT AFRAID TO DELVE INTO UNFAMILIAR TECH STACKS",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -124,31 +124,37 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Hertfordshire University",
-      // logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/herts-uni-logo.png"),
       subHeader: "IT Management in Business",
       duration: "September 2012 - April 2013",
       desc: "BSc(Hons)",
       descBullets: [
         "Enhance understanding of crucial business principles, organisational dynamics and system tools",
-        "Learn about user-centric system design, technology trends, database management and mobile tech"
+        "Learn about user-centric system design, technology trends, database management and mobile tech",
+        "Develop Information System (IS) skills with a focus on commercial aspects such as the global business environment, finance, marketing, project management and organisational behaviour"
       ]
     },
     {
       schoolName: "Kingston University",
-      // logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/kingston-logo.png"),
       subHeader: "Marketing Management",
       duration: "September 2013 - April 2015",
       desc: "BSc(Hons)",
-      descBullets: ["Covers key marketing theories and principles, brand strategy and development, digital marketing, advertising"]
+      descBullets: ["Covers key marketing theories and principles, brand strategy and development, digital marketing, advertising",
+        "Equips students with the fundamental knowledge and understanding of the marketing eco-system and how to develop creative, digitally enhanced solutions",
+        "Become familiar with the principles of marketing and marketing's core concepts as well as gain an in-depth understanding of the role and function of marketing in modern business"
+      ]
     },
     {
       schoolName: "Code Institute",
-      // logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/code-institute-logo.webp"),
       subHeader: "Full Stack developer",
       duration: "November 2022 - December 2023",
       desc: "One of the only university credit-rated online coding bootcamps in the UK",
       descBullets: [
-        "An in-depth, flexible, online coding course, with 600 hours of learning material over a 12 month period"
+        "An in-depth, flexible, online coding course, with 600 hours of learning material over a 12 month period",
+        "Delves into front-end software development and essential UX techniques, gaining proficiency in the top three programming languages: CSS, JavaScript, and Python",
+        "Create a sophisticated front-end web app using the Python framework DRF and React which is favoured by companies such as Netflix, Airbnb and Instagram"
       ]
     }
   ]
@@ -188,7 +194,8 @@ const workExperiences = {
       desc: "Sole web developer for Revitalize creating visually appealing UI/UX using best practices",
       descBullets: [
         "Ensure the site is responsive across multiple devices through good responsive design practices",
-        "Utilize a content management platform (Wix) to create and edit the site to meet client needs"
+        "Utilize a content management platform (Wix) to create and edit the site to meet client needs",
+        "Apply my understanding of web accessibility and SEO to ensure the site performs well on search engines"
       ]
     },
     {
@@ -199,7 +206,8 @@ const workExperiences = {
       desc: "Recorded patient data with precision on IT systems",
       descBullets: [
         "Guaranteed accuracy of attached referrals with each patient before being scanned",
-        "Built rewarding and long-lasting relationships with radiologists working for the company"
+        "Built rewarding and long-lasting relationships with radiologists working for the company",
+        "Promoted to specialist radiologist administrator position within less than a year"
       ]
     }
   ]
@@ -263,7 +271,7 @@ const achievementSection = {
       imageAlt: "Scrimba logo",
     },
     {
-      title: "Udemy Web developer Bootcamp",
+      title: "Udemy",
       subtitle:
         "Underwent the web developer bootcamp which covered HTML, CSS, Javascript and Node.js",
       image: require("./assets/images/udemy-logo.png"),
